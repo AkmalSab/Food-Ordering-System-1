@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="20dp"
+    tools:context=".MainMenuActivity">
+
+    <Button
+        android:id="@+id/parseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Food"
+        android:onClick="openFetchApi"/>
+
+    <Button
+        android:id="@+id/viewFoodCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Food Category"
+        android:onClick="showFoodCategory"/>
+
+    <Button
+        android:id="@+id/submitOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Food"
+        android:onClick="orderFood"/>
+
+    <Button
+        android:id="@+id/reviewFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review Food"
+        android:onClick="openReview"/>
+
+
+
+
+</LinearLayout>

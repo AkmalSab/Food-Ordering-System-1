@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Food Ordering System</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_number">Order number</string>
+    <string name="your_order_from">Your order from:</string>
+    <string name="shop_name">PandaStore</string>
+    <string name="quantity">1x</string>
+    <string name="food_price">RM 12.00</string>
+    <string name="bg_desc">this is an example background image</string>
+    <string name="order_id">#53t-494-545</string>
+    <string name="food">Nasi Goreng</string>
+    <string name="food2">Nasi Goreng Ayam</string>
+    <string name="subtotal_text">Subtotal</string>
+    <string name="subtotal_price_text">RM 24.00</string>
+    <string name="overall_total_text">Total (incl. Tax)</string>
+    <string name="overall_total_price_text">RM 37.82</string>
+    <string name="submit_order_button_text">Submit Order</string>
+    <string name="parse_text">Parse</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
